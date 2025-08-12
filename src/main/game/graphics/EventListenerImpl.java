@@ -27,7 +27,7 @@ public class EventListenerImpl implements GLEventListener {
         gl = glAutoDrawable.getGL().getGL2();
         gl.glClearColor(0,0,0,1);
 
-        background = new ImageResource("/images/background/street.png").getTexture();
+        background = new ImageResource("/images/background/dbz.gif").getTexture();
         Graphics.createObjectTexture(background,0,0,Renderer.tileSize,Renderer.vTileSize,0);
 
         try {
